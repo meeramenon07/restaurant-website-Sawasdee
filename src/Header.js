@@ -9,18 +9,22 @@ function Header() {
 						<ul>
 							<li><a 
                     className="nav-item"
-                    href="./my-app/src/menus/Soquel_lunch.pdf">Lunch Menu</a>
+                    href="./my-app/src/menus/Soquel_lunch.pdf"
+                    target="_blank">Lunch Menu</a>
               </li>
 							<li>•</li>
 							<li><a 
                     className="nav-item"
-                    href="./src/menus/Soquel_dinner.pdf">Dinner Menu</a>
+                    href="./src/menus/Soquel_dinner.pdf"
+                    target="_blank">Dinner Menu</a>
                   
               </li>
 							<li>•</li>
 							<li><a 
                     className="nav-item"
-                    href="https://onlineorders.wawio.com/menu/58b094014f5ee90b787b23ce">Order Online</a></li>
+                    href="https://onlineorders.wawio.com/menu/58b094014f5ee90b787b23ce"
+                    target="_blank">Order Online</a></li>
+              <li></li>
     {/*<li>•</li>
               <li><a
                     className="nav-item"

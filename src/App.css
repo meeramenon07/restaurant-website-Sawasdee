@@ -5,14 +5,21 @@
  * 
  */
 .App-header {
-  background-color: #282c34;
+/*  background-color: #282c34;*/
+/*  background-image: url(images/fancy-cushion.png);*/
+/*  background-image: url(images/spiration-dark.png);*/
+/*  background-image: url(images/nami.png);*/
+/*  background-image: url(images/soft_kill.png);*/
+  background-image: url(images/light-veneer.png);
+  white-space: nowrap;
 /*  min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(30px + 2vmin);
-  color: white;
+/*  margin: auto;*/
+/*  color: white;*/
 	height:215px;
 }
 .App-header * {
@@ -22,13 +29,14 @@
 .App-nav {
 /*	font-family: 'Cinzel', serif;*/
 	font-family: 'Lilita One', cursive;
-	font-weight: 1;
-	color: white;
+/*	font-weight: 300;*/
+	color: black;
 	display: inline;
 	font-size: 27px;
+  margin: auto;
 }
 .nav-item {
-color: white;
+  color: black;
 	text-decoration: none;
 }
 
@@ -38,7 +46,7 @@ li {
 
 #title {
   font-family: 'Lilita One', cursive;
-  text-shadow: 1px 1px 1px white!important; 
+  text-shadow: 1px 1px 1px black!important; 
 	font-size: 60px;
 	font-weight: 100;
 	color: #a848c2;
@@ -47,10 +55,18 @@ li {
 }
 html, body {
   height: 100%;
+/*  background-image: url(images/fancy-cushion.png);*/
+/*  background-image: url(images/spiration-dark.png);*/
+/*  background-image: url(images/nami.png);*/
+  background-image: url(images/light-veneer.png);
 }
 
 body {
     background-color: #282c34;
+}
+
+p {
+  font-size: 13px;
 }
 
 #body {
@@ -60,8 +76,9 @@ body {
   padding-left: 40px;
   padding-right: 40px;
 /*  color: #c4b4bc;*/
-  color: white;
+  color: black;
   font-size: 13px;
+  
 }
 .row {
   display: flex;
@@ -76,21 +93,33 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+  
+}
+@media (max-widthL 768px) {
+  .sidebar {
+    display: none;
+  }
 }
 .sidebar {
   border-right: 1px dotted #8f8c8a;
   height: 100%;
-  padding: 20px;
-  padding-top: 5px;
+  padding: 30px;
+/*  width: 200px;*/
+/*  padding-top: 30px;*/
+/*  position: absolute;*/
 }
 .content {
   padding: 30px;
+  white-space: nowrap;
 }
 
 #footer {
   position: absolute;
   background-color: #282c34;
-  color: white;
+/*  background-image: url(images/spiration-dark.png);*/
+/*  background-image: url(images/nami.png);*/
+  background-image: url(images/light-veneer.png);
+  color: black;
   text-align: center;
   margin: 0 auto;
   bottom: 0;
@@ -113,5 +142,5 @@ a:active {
 }
 
 #purple {
-  color: #e1aaff;
+  color: #a848c2;
 }
