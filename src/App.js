@@ -17,13 +17,17 @@ const App = () => (
     <div>
       <Header />
       <div className="clr"></div>
+      
+      
+  
       <div className="container">
+        <Route exact path='/LunchMenu' component={LunchMenu} />
+        <Route exact path='/DinnerMenu' component={DinnerMenu} />
+        <Route exact path='/OrderOnline' component={OnlineMenu} />
         <Route exact path='/' component={SlideShow} />
-        <Route exact path='/' component={Sidebar} />
+        <Route path='/' component={Sidebar} />
 
-      <Route exact path='/LunchMenu' component={LunchMenu} />
-      <Route exact path='/DinnerMenu' component={DinnerMenu} />
-      <Route exact path='/OrderOnline' component={OnlineMenu} />
+      
       </div>
       <Footer />
       </div>

@@ -1,34 +1,39 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 
 const Header = () => (
   <header>
-    <h1 id="title">Sawasdee <br/>Thai Cuisine</h1>
+    <NavLink exact to="/" activeClassName="about">
+      <h1 id="title">Sawasdee <br/>Thai Cuisine</h1>
+    </NavLink>
     <nav className="App-nav">
       <ul>
         <li>
-          <a 
+          <NavLink 
             className="nav-item"
-            href="https://www.sawasdeesoquel.com/Soquel_LunchMenu.pdf"
-            target="_blank">Lunch Menu
-          </a>
+            activeClassName="active"
+            exact to="/LunchMenu"
+          > Lunch Menu
+          </NavLink>
         </li>
         • 
         <li>
-          <a 
-            className="nav-item" 
-            href="https://www.sawasdeesoquel.com/Soquel_DinnerMenu.pdf"
-            target="_blank">Dinner Menu
-          </a>
+          <NavLink 
+            className="nav-item"
+            activeClassName="active"
+            exact to="/DinnerMenu"
+          > Dinner Menu
+          </NavLink>
         </li>
         • 
         <li>
-          <a 
+          <NavLink 
             className="nav-item"
-            href="https://onlineorders.wawio.com/menu/58b094014f5ee90b787b23ce"
-            target="_blank">Order Online
-          </a>
+            activeClassName="active"
+            exact to="/OrderOnline"
+          > Order Online
+          </NavLink>
         </li>
       </ul>
     </nav>
