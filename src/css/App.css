@@ -2,7 +2,7 @@
 
 
 body {
-  background-image: url(../images/light-veneer.png);
+  background-image: url(/images/light-veneer.png);
   font-family: 'Lilita One', cursive;
   margin: 0;
   padding: 0;
@@ -133,6 +133,29 @@ img {
   float: left;
 }
 
+/* Menus */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.menuContainer {
+  width: 80%;
+  float: left;
+}
+.lunchNav {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  
+  width: 20%;
+/*  float: left;*/
+}
+.lunchNav a {
+  text-decoration: none;
+  display: block;
+  font-size: 0.75em;
+  padding: 10px 0px;
+  box-sizing: border-box;
+/*  border-bottom: dotted black 1px;*/
+}
+
 /* Footer */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 footer {
@@ -152,8 +175,6 @@ footer {
 /* Media Queries */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-
-
 @media screen and (max-width: 1280px) {
   #title {
     font-size: 42px;
@@ -168,7 +189,7 @@ footer {
   .sidebar {
     all: initial;
     width: 100%;
-    float: right;
+/*    float: right;*/
     margin: 0 auto;
   }
   .info {

@@ -4,9 +4,9 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => (
   <header>
-    <NavLink exact to="/" activeClassName="about">
+    <Link exact to="/">
       <h1 id="title">Sawasdee <br/>Thai Cuisine</h1>
-    </NavLink>
+    </Link>
     <nav className="App-nav">
       <ul>
         <li>
