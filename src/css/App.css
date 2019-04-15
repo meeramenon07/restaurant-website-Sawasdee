@@ -11,7 +11,7 @@ body {
 /* Global */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .container {
-  width: 80%;
+  width: 100%;
   height: 100%;
   margin: auto;
   overflow: hidden;
@@ -136,14 +136,19 @@ img {
 /* Menus */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .menuContainer {
-  width: 80%;
-  float: right;
+  width: 100%;
+  float: left;
 }
 #lunchNav {
-  background-color: black;
-  float: left;
-  width: 20%;
+  background-color: #ffffd0;
+  position: fixed;
+/*  float: right;*/
+  width: 30%;
   margin-top: 30px;
+/*  top: 0;*/
+  right: 0;
+  padding: 10px;
+  border: 4px solid white;
   box-sizing: border-box;
 }
 #lunchNav h4 {
@@ -151,7 +156,7 @@ img {
 }
 #lunchNav a {
   text-decoration: none;
-  color: white;
+  color: black;
   display: block;
   font-size: 0.75em;
   padding: 10px 0px;
@@ -160,10 +165,14 @@ img {
 .sticky + .menuAndNavContainer {
   padding-top: 60px;
 }
+.menuAndNavContainer {
+  position: relative;
+}
 
 .sticky {
   position: fixed;
   top: 0;
+  right: 0;
   width: 100%;
 }
 /* Footer */
@@ -186,9 +195,6 @@ footer {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 @media screen and (max-width: 1280px) {
-  #title {
-    font-size: 42px;
-  }
   .content {
     all: initial;
     width: 100%;
@@ -227,6 +233,9 @@ footer {
 @media screen and (max-width: 768px) {
   header {
     max-width: 475px;
+  }
+   #title {
+    font-size: 42px;
   }
   nav {
     width: 100%;
