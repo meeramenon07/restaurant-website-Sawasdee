@@ -137,25 +137,35 @@ img {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .menuContainer {
   width: 80%;
+  float: right;
+}
+#lunchNav {
+  background-color: black;
   float: left;
-}
-.lunchNav {
-  position: fixed;
-  right: 0;
-  top: 35%;
-  
   width: 20%;
-/*  float: left;*/
+  margin-top: 30px;
+  box-sizing: border-box;
 }
-.lunchNav a {
+#lunchNav h4 {
+  color: #a848c2;
+}
+#lunchNav a {
   text-decoration: none;
+  color: white;
   display: block;
   font-size: 0.75em;
   padding: 10px 0px;
   box-sizing: border-box;
-/*  border-bottom: dotted black 1px;*/
+}
+.sticky + .menuAndNavContainer {
+  padding-top: 60px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /* Footer */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 footer {
