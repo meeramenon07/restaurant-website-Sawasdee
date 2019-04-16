@@ -22,6 +22,10 @@ class LunchMenu extends React.Component {
             <a href="#lunchCombinations">Combinations</a>
             <a href="#lunchSoup">Noodle Soup</a>
             <a href="#lunchNoodles">Lunch Noodles</a>
+            <a href="#lunchSides">Sides</a>
+            <a href="#lunchDessert">Desserts</a>
+            <a href="#lunchBeverages">Beverages</a>
+            <a href="#lunchBeer">Beer</a>
         </div>
         <div className="menuContainer">
           <img
@@ -39,6 +43,22 @@ class LunchMenu extends React.Component {
           <img
             src="/menu/Lunch3Noodles.png"
             id="lunchNoodles"
+          />
+          <img
+            src="/menu/Dinner11Side.png"
+            id="lunchSides"
+          />
+          <img
+            src="/menu/Dinner12Dessert.png"
+            id="lunchDesserts"
+          />
+          <img
+            src="/menu/Dinner13Beverages.png"
+            id="lunchBeverages"
+          />
+          <img
+            src="/menu/Dinner14Beer.png"
+            id="lunchBeer"
           />
         </div>
       </div>
