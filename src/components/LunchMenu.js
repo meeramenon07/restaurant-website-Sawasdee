@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { StickyContainer, Sticky } from 'react-sticky'
 //import '../css/NotHomepage.css';
 
 class LunchMenu extends React.Component {
