@@ -9,7 +9,7 @@ class DinnerMenu extends React.Component {
   render() {
     return (
       <div className="menuAndNavContainer">
-        <div id="lunchNav">
+        <div id="menuNav">
             <h4> Menu Navigation </h4>
             <a href="#dinnerAppetizers">Appetizers</a>
             <a href="#dinnerSalads">    Salads</a>
@@ -97,7 +97,7 @@ class DinnerMenu extends React.Component {
 function myFunction() {
     if (window.location.href === "http://localhost:3000/DinnerMenu") {
       // Get the navbar
-      var navbar = document.getElementById("lunchNav");
+      var navbar = document.getElementById("menuNav");
 
       // Get the offset position of the navbar
       var sticky = navbar.offsetTop;

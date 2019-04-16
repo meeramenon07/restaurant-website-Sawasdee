@@ -7,16 +7,14 @@ class LunchMenu extends React.Component {
 
   
   componentDidMount() {
-//    console.log("here");
-//    console.log(window.location.href);
+    
     window.onscroll = function() {myFunction()};
-
   }
   
   render(){
     return (
       <div className="menuAndNavContainer">
-        <div id="lunchNav">
+        <div id="menuNav">
             <h4> Menu Navigation </h4>
             <a href="#lunchSpecials">Lunch Specials</a>
             <a href="#lunchCombinations">Combinations</a>
@@ -71,7 +69,7 @@ class LunchMenu extends React.Component {
 function myFunction() {
     if (window.location.href === "http://localhost:3000/LunchMenu") {
       // Get the navbar
-      var navbar = document.getElementById("lunchNav");
+      var navbar = document.getElementById("menuNav");
 
       // Get the offset position of the navbar
       var sticky = navbar.offsetTop;

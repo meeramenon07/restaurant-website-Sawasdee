@@ -5,7 +5,9 @@ import { Link, NavLink } from 'react-router-dom'
 const Header = () => (
   <header>
     <Link exact to="/">
-      <h1 id="title">Sawasdee <br/>Thai Cuisine</h1>
+      <label for="link">
+        <h1 id="title">Sawasdee <br/>Thai Cuisine</h1>
+      </label>
     </Link>
     <nav className="App-nav">
       <ul>
