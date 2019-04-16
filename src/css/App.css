@@ -11,7 +11,7 @@ body {
 /* Global */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .container {
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin: auto;
   overflow: hidden;
@@ -31,7 +31,7 @@ p {
 header {
   text-align: center;
 /*  min-width: 440px;*/
-  border: dotted 1px;
+/*  border: dotted 1px;*/
   margin: auto;
 }
 header a {
@@ -47,7 +47,7 @@ header a {
   margin-top: 30px;
   padding-left: 50px;
   padding-right: 50px;
-  border: dotted 1px red;
+/*  border: dotted 1px red;*/
 }
 nav {
 	color: black;
@@ -76,7 +76,7 @@ nav li {
   text-decoration: underline;
 }
 
-/* Body */
+/* Main */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .sidebar {
 /*  border-right: 1px dotted #8f8c8a;*/
@@ -129,15 +129,15 @@ iframe {
 }
 img {
   padding-top: 20px;
-  width: 70%;
-  float: left;
+  width: 100%;
+/*  float: left;*/
 }
 
 /* Menus */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .menuContainer {
   width: 100%;
-  float: left;
+/*  float: left;*/
 }
 #lunchNav {
   background-color: #ffffd0;
@@ -187,7 +187,7 @@ footer {
 /*  margin: 0 auto;*/
 /*  bottom: 0;*/
 /*  width: 600px;*/
-  height: 3rem;/* Footer height */
+  height: 3rem;
   font-size: 11px;
 }
 
@@ -198,21 +198,22 @@ footer {
   .content {
     all: initial;
     width: 100%;
-    border: dotted 2px red;
+/*    border: dotted 2px red;*/
     max-height: 10px;
   }
   
   .sidebar {
     all: initial;
     width: 100%;
-/*    float: right;*/
-    margin: 0 auto;
+
   }
   .info {
     width: 25%;
     float: left;
+    text-align: center;
     box-sizing: border-box;
-    height: 100px;
+    padding: 20px 0px;
+    height: 140px;
   }
   img {
     float: none;
@@ -228,7 +229,7 @@ footer {
   
 }
 
-  
+/*  */
 
 @media screen and (max-width: 768px) {
   header {
@@ -240,7 +241,7 @@ footer {
   nav {
     width: 100%;
     font-size: 15px;
-    border: dotted 1px black;
+/*    border: dotted 1px black;*/
     padding-bottom: 0;
   }
   nav li {
@@ -253,7 +254,7 @@ footer {
     margin: 0;
   }
   .sidebar p {
-    font-size: 11px;
+    font-size: 12px;
   } 
   footer {
     margin: 0;
@@ -264,16 +265,11 @@ footer {
     width: 50%;
     float: left;
     box-sizing: border-box;
-    text-align: left;
-    font-size: 12px;
+    text-align: center;
+/*    font-size: 14px;*/
+    font-size: 0.9em;
   }
   img {
     width: 100%;
   }
 }
-
-
-
-
-
-

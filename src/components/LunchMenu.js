@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { StickyContainer, Sticky } from 'react-sticky'
-import '../css/NotHomepage.css';
+//import '../css/NotHomepage.css';
 
 class LunchMenu extends React.Component {
 
@@ -49,7 +49,7 @@ class LunchMenu extends React.Component {
 }
 
 function myFunction() {
-    if(window.location.href === "http://localhost:3000/LunchMenu") {
+    if (window.location.href === "http://localhost:3000/LunchMenu") {
       // Get the navbar
       var navbar = document.getElementById("lunchNav");
 
@@ -67,8 +67,3 @@ function myFunction() {
 }
 
 export default LunchMenu
-
-//<img src="https://sawasdeesoquel.com/menus/LunchMenu.png"/>
-
-//<embed src="https://drive.google.com/viewerng/
-//viewer?embedded=true&url=https://sawasdeesoquel.com/menus/LunchEmbeded.pdf"/>
