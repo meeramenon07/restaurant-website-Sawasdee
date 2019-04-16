@@ -7,8 +7,8 @@ class LunchMenu extends React.Component {
 
   
   componentDidMount() {
-    console.log("here");
-    console.log(window.location.href);
+//    console.log("here");
+//    console.log(window.location.href);
     window.onscroll = function() {myFunction()};
 
   }
@@ -23,7 +23,7 @@ class LunchMenu extends React.Component {
             <a href="#lunchSoup">Noodle Soup</a>
             <a href="#lunchNoodles">Lunch Noodles</a>
             <a href="#lunchSides">Sides</a>
-            <a href="#lunchDessert">Desserts</a>
+            <a href="#lunchDesserts">Desserts</a>
             <a href="#lunchBeverages">Beverages</a>
             <a href="#lunchBeer">Beer</a>
         </div>

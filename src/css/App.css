@@ -166,7 +166,9 @@ img {
   padding-top: 60px;
 }
 .menuAndNavContainer {
-  position: relative;
+/*  position: relative;*/
+  width: 80%;
+  margin: auto;
 }
 
 .sticky {

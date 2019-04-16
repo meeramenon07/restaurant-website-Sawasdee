@@ -20,7 +20,7 @@ const App = () => (
       
       
   
-      <div className="container">
+      <div className="menuAndNavContainer">
         <Route exact path='/LunchMenu' component={LunchMenu} />
         <Route exact path='/DinnerMenu' component={DinnerMenu} />
         <Route exact path='/OrderOnline' component={OnlineMenu} />
