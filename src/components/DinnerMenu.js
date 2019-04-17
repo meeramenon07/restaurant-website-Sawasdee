@@ -95,7 +95,7 @@ class DinnerMenu extends React.Component {
 }
 
 function myFunction() {
-    if (window.location.href === "http://localhost:3000/DinnerMenu") {
+    if (window.location.href.indexOf("/DinnerMenu") >= 0) {
       // Get the navbar
       var navbar = document.getElementById("menuNav");
 
