@@ -23,77 +23,77 @@ const DinnerMenu = () => {
       </div>
       <div className="menuContainer">
         <img
-          src="/menu/Dinner00Appetizers.png"
+          src="/menu/00Appetizers.png"
           id="dinnerAppetizers"
           alt="Appetizers"
         />
         <img
-          src="/menu/Dinner01Salads.png"
+          src="/menu/01Salads.png"
           id="dinnerSalads"
           alt="Salads"
         />
         <img
-          src="/menu/Dinner02Soup.png"
+          src="/menu/02Soup.png"
           id="dinnerSoup"
           alt="Soups"
         />
         <img
-          src="/menu/Dinner03Curry.png"
+          src="/menu/03Curries.png"
           id="dinnerCurry"
           alt="Currys"
         />
         <img
-          src="/menu/Dinner04OtherDishes.png"
+          src="/menu/04OtherDishes.png"
           id="dinnerOther"
           alt="Other Dishes"
         />
         <img
-          src="/menu/Dinner05Seafood.png"
+          src="/menu/05Seafood.png"
           id="dinnerSeafood"
           alt="Seafood"
         />
         <img
-          src="/menu/Dinner06Chef.png"
+          src="/menu/06ChefsSpecial.png"
           id="dinnerChef"
           alt="Chef's Special"
         />
         <img
-          src="/menu/Dinner07House.png"
+          src="/menu/07HouseSpecials.png"
           id="dinnerHouse"
           alt="House Specials"
         />
         <img
-          src="/menu/Dinner08Noodles.png"
+          src="/menu/08Noodles.png"
           id="dinnerNoodles"
           alt="Noodles"
         />
         <img
-          src="/menu/Dinner09FriedRice.png"
+          src="/menu/09FriedRice.png"
           id="dinnerFR"
           alt="Fried Rice Dishes"
         />
         <img
-          src="/menu/Dinner10NoodleSoup.png"
+          src="/menu/10NoodleSoup.png"
           id="dinnerNoodleSoup"
           alt="Noodle Soup"
         />
         <img
-          src="/menu/Dinner11Side.png"
+          src="/menu/11Sides.png"
           id="dinnerSides"
           alt="Sides"
         />
         <img
-          src="/menu/Dinner12Dessert.png"
+          src="/menu/12Desserts.png"
           id="dinnerDesserts"
           alt="Desserts"
         />
         <img
-          src="/menu/Dinner13Beverages.png"
+          src="/menu/13Beverages.png"
           id="dinnerBeverages"
           alt="Beverages"
         />
         <img
-          src="/menu/Dinner14Beer.png"
+          src="/menu/14Beer.png"
           id="dinnerBeer"
           alt="Beer"
         />
