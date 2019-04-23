@@ -2,7 +2,6 @@
 .content {
   all: initial;
   width: 100%;
-  border: dotted 2px red;
   max-height: 10px;
 }
 .sidebar {

@@ -28,25 +28,20 @@ p {
 /* Header */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 header {
-  text-align: center;
-/*  min-width: 440px;*/
-/*  border: dotted 1px;*/
   margin: auto;
+  text-align: center;
 }
 header a {
   text-decoration: none;
 }
 #title {
-/*  font-family: 'Lilita One', cursive;*/
   font-size: 55px;
   font-weight: 100;
   text-shadow: 1px 1px 1px black!important; 
 	color: #a848c2;
   margin-bottom: -50px;
   margin-top: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-/*  border: dotted 1px red;*/
+  padding: 0px 50px;
 }
 nav {
 	color: black;
@@ -61,7 +56,6 @@ nav li {
   padding-top: 40px;
   padding-bottom: 20px;
   display: inline-block;
-  
 }
 .nav-item {
   color: black;
@@ -78,13 +72,12 @@ nav li {
 /* Main */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .sidebar {
-/*  border-right: 1px dotted #8f8c8a;*/
   padding: 30px;
   text-align: center;
   width: 25%;
   float: left;
   box-sizing: border-box;
-  max-width: 250px;
+/*  max-width: 250px;*/
   min-width: 180px;
 }
 .sidebar p {
@@ -128,6 +121,7 @@ iframe {
 }
 img {
   padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
 /*  float: left;*/
 }
@@ -136,19 +130,14 @@ img {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 .menuContainer {
   width: 70%;
-/*  position: absolute;*/
-/*  margin: 0 auto;*/
-/*  float: left;*/
+  max-width: 800px;
   margin: 0 10%;
 }
 #menuNav {
   position: -webkit-sticky;
   position: sticky;
-/*  position: static;*/
-/*  top: 0;*/
   float: right;
   background-color: #ffffd0;
-/*  background-color: #fffce5;*/
   width: 20%;
 /*  margin-top: 30px;*/
   top: 0;
@@ -254,7 +243,6 @@ footer {
     float: left;
     box-sizing: border-box;
     text-align: center;
-/*    font-size: 14px;*/
     font-size: 0.9em;
   }
   img {

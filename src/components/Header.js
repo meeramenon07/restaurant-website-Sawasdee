@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+//import '../css/App.css';
 
 
 const Header = () => (
   <header>
     <Link exact to="/">
-      <div>
         <h1 id="title">Sawasdee <br/>Thai Cuisine</h1>
-      </div>
     </Link>
     <nav className="App-nav">
       <ul>
@@ -30,12 +29,13 @@ const Header = () => (
         </li>
         • 
         <li>
-          <NavLink 
+          <a 
             className="nav-item"
             activeClassName="active"
-            exact to="/OrderOnline"
+            target="_blank"
+            href="https://onlineorders.wawio.com/menu/58b094014f5ee90b787b23ce"
           > Order Online
-          </NavLink>
+          </a>
         </li>
       </ul>
     </nav>
