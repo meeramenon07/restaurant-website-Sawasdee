@@ -32,8 +32,9 @@ const Header = () => (
           <a 
             className="nav-item"
             activeClassName="active"
-            target="_blank"
             href="https://onlineorders.wawio.com/menu/58b094014f5ee90b787b23ce"
+            target="_blank"
+            rel="noopener noreferrer"
           > Order Online
           </a>
         </li>

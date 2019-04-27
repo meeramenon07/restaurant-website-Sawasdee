@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 
 /* Styles */
@@ -8,14 +8,11 @@ import Header from './components/Header.js'
 import Footer from './components/Footer.js'
 import Sidebar from './components/Sidebar.js'
 import SlideShow from './components/Slideshow.js'
-
 /* Menu Components */
 import LunchMenu from './components/LunchMenu.js'
 import DinnerMenu from './components/DinnerMenu.js'
-import OnlineMenu from './components/OnlineMenu.js'
 
-const App = () => {
-  
+const App = () => { 
   return (
     <BrowserRouter>
       <div>
@@ -25,7 +22,7 @@ const App = () => {
         <div className="menuAndNavContainer">
           <Route exact path='/LunchMenu' component={LunchMenu} />
           <Route exact path='/DinnerMenu' component={DinnerMenu} />
-          <Route exact path='/OrderOnline' component={OnlineMenu} />
+
         </div>
         <div className="container">
           <Route exact path='/' component={SlideShow} />
@@ -35,7 +32,6 @@ const App = () => {
         <Footer />
       </div>
     </BrowserRouter>) 
-    
 }
 
 export default App;

@@ -1,9 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-//import '../css/NotHomepage.css';
 
 const LunchMenu = () => {
-  require('../css/NotHomepage.css')
   return (
     <div className="menuAndNavContainer">
       <div id="menuNav">
