@@ -15,16 +15,34 @@ const Slideshow = () => (
         autoPlay={true} 
         swipeable={false}>
         <div>
-            <img src="https://i.imgur.com/6IBCk6S.jpg" />
-            <p className="">Legend 1</p>
+            <img 
+              src="/images/01.jpg"
+              alt="Sawasdee-pic"
+            />
         </div>
         <div>
-            <img src="https://i.imgur.com/g0fw3mk.jpg" />
-            <p className="">Legend 2</p>
+            <img 
+              src="/images/04.jpg"
+              alt="Sawasdee-pic"
+            />
         </div>
         <div>
-            <img src="https://i.imgur.com/NsutVil.jpg" />
-            <p className="">Legend 3</p>
+            <img 
+              src="/images/02.jpg"
+              alt="Sawasdee-pic"
+            />
+        </div>
+        <div>
+            <img 
+              src="/images/05.jpg"
+              alt="Sawasdee-pic"
+            />
+        </div>
+        <div>
+            <img 
+              src="/images/06.jpg"
+              alt="Sawasdee-pic"
+            />
         </div>
     </Carousel>
   </div>
