@@ -6,7 +6,7 @@ ___
 To run this on your local machine you need Node.js installed to your environment. 
 
 ### Node
-You can install [Node](https://nodejs.org/en/) which will also come with [NPM](https://www.npmjs.com/). 
+You can install [Node](https://nodejs.org/en/) which will also come with [npm](https://www.npmjs.com/). 
 
 Refer to [this page](https://nodejs.org/en/download/package-manager/) if you are having trouble installing node.
 
