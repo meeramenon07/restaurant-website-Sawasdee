@@ -1,4 +1,3 @@
-___
 # Project Website for Sawasdee Thai Cuisine
 
 This is the repository for [https://sawasdeesoquel.com](https://sawasdeesoquel.com)
