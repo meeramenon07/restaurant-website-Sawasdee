@@ -44,7 +44,7 @@ This was a project built to replace an outdated restaurant website for a local b
 I took this project as an opportunity to familiarize myself with React.js and contemporary web development practices. I started this project using the `create-react-app` boilerplate. Then, routing is implemented using components from `react-router-dom`. 
 
 Overall, all of the technologies used in this project were:
-Reactjs, JSX, HTML, Vanilla JavaScript, and CSS.
+Reactjs, JSX, HTML, Vanilla JavaScript, CSS, and npm.
 
 ### Future Addition Plans
 
