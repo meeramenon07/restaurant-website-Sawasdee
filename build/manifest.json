@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Sawasdee Thai Cuisine",
+  "name": "Sawasdee Thai Cuisine React App",
+  "description": "About Sawasdee located in Soquel, CA",
   "icons": [
     {
       "src": "favicon.ico",
